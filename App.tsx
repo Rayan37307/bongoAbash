@@ -3,7 +3,9 @@ import React from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Founder from './components/Founder';
+import TrustHub from './components/TrustHub';
 import Works from './components/Works';
+import MortgageCalculator from './components/MortgageCalculator';
 import Testimonials from './components/Testimonials';
 import About from './components/About';
 import Contact from './components/Contact';
@@ -16,8 +18,10 @@ const App: React.FC = () => {
       <Navbar />
       <main>
         <Hero />
-        <Founder />
+        <TrustHub />
         <Works />
+        <MortgageCalculator />
+        <Founder />
         <Testimonials />
         <About />
         <Contact />

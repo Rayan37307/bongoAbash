@@ -9,27 +9,41 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            'abash-bg': '#F9F9F7',
+            'abash-sage': '#4A5D4E',
+            'abash-text': '#2D2D2D',
+            'abash-sand': '#D4A373',
+          },
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+            serif: ['Playfair Display', 'serif'],
+          }
+        }
+      }
+    }
+  </script>
   <style>
     body {
-      font-family: 'Inter', sans-serif;
       scroll-behavior: smooth;
-    }
-    .font-serif {
-      font-family: 'Playfair Display', serif;
     }
     /* Custom scrollbar */
     ::-webkit-scrollbar {
       width: 6px;
     }
     ::-webkit-scrollbar-track {
-      background: #f1f1f1;
+      background: #F9F9F7;
     }
     ::-webkit-scrollbar-thumb {
-      background: #d4d4d4;
+      background: #D4A373;
       border-radius: 10px;
     }
     ::-webkit-scrollbar-thumb:hover {
-      background: #a3a3a3;
+      background: #4A5D4E;
     }
   </style>
 <script type="importmap">
@@ -43,7 +57,7 @@
 }
 </script>
 </head>
-<body class="bg-[#FAF9F6] text-stone-800 overflow-x-hidden">
+<body class="bg-abash-bg text-abash-text overflow-x-hidden">
   <div id="root"></div>
 </body>
 </html>
