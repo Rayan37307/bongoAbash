@@ -1,0 +1,7 @@
+{
+  "name": "BongoAbash - Luxury Real Estate Bangladesh",
+  "description": "A premium real estate platform focused on high-end urban living in Bangladesh, featuring AI-powered property recommendations and minimalist design.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
